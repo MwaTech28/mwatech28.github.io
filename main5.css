@@ -612,7 +612,7 @@ opacity: .7;
 }
 
 .appimg4 h1{
-	color: #AA000000;
+	/*color: #AA000000;*/
 }
 
 .framworktxt{
@@ -979,10 +979,14 @@ textArea{
 	padding-right:100px;
 }
 
+#smallpic img{
+	width:50px;
+	height:50px;
+}
+
 #smallpic .smpic2{
 	cursor:pointer;
 	float:left;
-	width:100px;
 }
 
 .pic2 img{
@@ -1870,12 +1874,14 @@ textArea{
 }
 
 #smallpic{
-	float:left;
-	width:100%;
-	background:transparent;
-	padding-bottom:5px;
+
 	padding-left:100px;
 	padding-right:100px;
+}
+
+#smallpic img{
+	width:100px;
+	height:100px;
 }
 
 #smallpic .smpic2{
