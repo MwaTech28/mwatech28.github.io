@@ -28,6 +28,14 @@
 	padding:0px;
 }
 
+.smallheader a{
+  color: white;
+}
+
+.coverC a{
+  color: white;
+}
+
 .info p{
 	/*font-size:25px;*/
 	color: #5B5757;
