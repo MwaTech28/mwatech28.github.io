@@ -895,7 +895,7 @@ textArea{
 	position: absolute;
 	
 	top:3%;
-	left:20;
+	left:20px;
 	cursor:pointer;
 }
 
@@ -912,7 +912,7 @@ textArea{
 	border-radius:50%;
     opacity: .6;
 	bottom:40%;
-	left:20;
+	left:20px;
 	cursor:pointer;
 }
 
@@ -922,7 +922,7 @@ textArea{
 	border-radius:50%;
 	opacity: .6;
 	bottom:40%;
-	right:20;
+	right:20px;
 	cursor:pointer;
 }
 
@@ -1846,7 +1846,7 @@ textArea{
 	position: absolute;
 	
 	top:3%;
-	left:20;
+	left:20px;
 	cursor:pointer;
 }
 
@@ -1863,7 +1863,7 @@ textArea{
 	border-radius:50%;
     opacity: .6;
 	bottom:40%;
-	left:20;
+	left:20px;
 	cursor:pointer;
 }
 
@@ -1873,7 +1873,7 @@ textArea{
 	border-radius:50%;
 	opacity: .6;
 	bottom:40%;
-	right:20;
+	right:20px;
 	cursor:pointer;
 }
 
