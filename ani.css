@@ -1,0 +1,140 @@
+.desc{
+	visibility: unset; 
+}
+
+.lang{
+	visibility: unset; 
+}
+
+.mwapic{
+	visibility: unset; 
+}
+
+@media only screen and (min-width: 1000px){
+	
+.desc{
+	visibility: hidden; 
+}
+
+.lang{
+	visibility: hidden; 
+}
+
+.mwapic{
+	visibility: hidden; 
+}
+
+.slide {                  
+    visibility: visible;             
+    /*-webkit-animation: slide 1s;
+	animation: slide 1s;*/
+	
+	animation-duration: 1.5s;
+  animation-name: slide;
+  
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-name: slide;
+	
+}
+
+.slide2 {                  
+    visibility: visible;             
+    /*-webkit-animation: slide 1s;
+	animation: slide 1s;*/
+	
+	animation-duration: 1s;
+  animation-name: slideRight;
+  
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: slideRight;
+	
+}
+
+.slide3 {                  
+    visibility: visible;             
+    /*-webkit-animation: slide 1s;
+	animation: slide 1s;*/
+	
+	animation-duration: 1.2s;
+  animation-name: slideLeft;
+  
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-name: slideLeft;
+	
+}
+
+.pops {                  
+    visibility: visible;             
+    /*-webkit-animation: slide 1s;
+	animation: slide 1s;*/
+	
+	animation-duration: 1.5s;
+  animation-name: pop;
+  
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-name: pop;
+	
+}
+
+@keyframes slide {
+	
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    } 
+	
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+}
+
+@keyframes slideRight {
+	
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    } 
+	
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    } 
+}
+
+@keyframes slideLeft {
+	
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    } 
+	
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    } 
+}
+
+@keyframes pop {
+	
+    0% {
+        opacity: 0;
+        transform: scale(0)  rotate(0deg);
+    } 
+	
+	50% {
+        opacity: 0.8;
+        transform: scale(1.3) rotate(5deg);
+    } 
+	
+	75% {
+        rotate(0eg);
+    } 
+	
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(-5deg);
+    } 
+}
+
+}
