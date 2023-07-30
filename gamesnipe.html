@@ -278,7 +278,7 @@ $(".sociallogo").eq(0).on("click",function(){
 	$('.smallheader').css('padding', '10px');
 	
 	$('#drawer').on("click",function(){
-
+   $('#drawerMenu').css('display','block');
 $('#drawerMenu').animate({'margin-left': '+=250px'},600,function(){
 	
 });
@@ -287,9 +287,9 @@ $('#drawerMenu').animate({'margin-left': '+=250px'},600,function(){
 
 $('#drawerIconClose').on("click",function(){
 		
-		$('#drawerMenu').animate({'margin-left': '-=250px'},600);
-		
-		})
+		$('#drawerMenu').animate({'margin-left': '-=250px'},600,function(){
+			$('#drawerMenu').css('display','done');
+		});
 		
 		$('.navlist:eq(1)').on("mouseenter",function(){
 
