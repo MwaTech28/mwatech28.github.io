@@ -703,6 +703,8 @@ getGamespotPics();
 var open_drawer = false;
 $('#drawer').on("click",function(){
 
+	$('#drawerMenu').css('display','block');
+
 $('#drawerMenu').animate({'margin-left': '+=250px'},600,function(){
 	
 });
@@ -712,7 +714,9 @@ $('#drawerMenu').animate({'margin-left': '+=250px'},600,function(){
 
 $('#drawerIconClose').on("click",function(){
 		
-		$('#drawerMenu').animate({'margin-left': '-=250px'},600);
+		$('#drawerMenu').animate({'margin-left': '-=250px'},600,funtion(){
+			$('#drawerMenu').css('display','done');
+		});
 		
 		})
 
