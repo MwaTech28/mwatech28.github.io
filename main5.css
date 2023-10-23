@@ -1973,6 +1973,7 @@ textArea{
 
 .myfooter div{
 	/*margin-left: 50px;*/
+	text-align: left;
 	padding: 10px;
 	float: left;
 }
